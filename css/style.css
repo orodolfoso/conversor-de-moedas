@@ -24,8 +24,16 @@ body {
     
 }
 
+.img-logo:hover {
+    transform: scale(1.2);
+}
+
 .img-usa {
     width: 150px;
+}
+
+.img-usa:hover {
+    transform: scale(1.2);
 }
 
 .img-arrow {
