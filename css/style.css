@@ -28,12 +28,20 @@ body {
     width: 150px;
 }
 
+.img-arrow {
+    width: 100px;
+    margin: 15px 0;
+}
+
+
+
 main {
-    width: 375px;
+    width: 400px;
     border-radius: 28px;
     background-color: #e0dbdb;
-    margin: 0 auto;
+    margin: 0 auto 40px;
     padding: 44px 24px 23px;
+
 }
 
 label {
@@ -42,7 +50,7 @@ label {
     font-size: 14px;
 }
 
-select {
+select, input {
     background-color: #fff;
     border: 1px solid #888888;
     border-radius: 4px;
@@ -53,4 +61,53 @@ select {
     padding-left: 18px;
     font-weight: 700;
     font-size: 16px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #2563EB;
+    width: 100%;
+    border: none;
+    height: 48px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+    background-color: #2960d8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 2px solid #2563EB;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    color: #777777;
+    font-size: 14px;
+}
+
+.currency-value {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
 }
