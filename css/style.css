@@ -14,27 +14,27 @@ body {
 
 .logo {
     display: block;
-    width: 300px;
-    margin: 20px auto;
+    width: 170px;
+    margin: 10px auto;
   
 }
 
-.img-logo {
+/* .img-logo {
     width: 100px;
     
-}
+} */
 
-.img-logo:hover {
+/* .img-logo:hover {
     transform: scale(1.2);
-}
+} */
 
-.img-usa {
+.currency-img, .currency-euro{
     width: 150px;
 }
 
-.img-usa:hover {
+/* .currency-img:hover {
     transform: scale(1.2);
-}
+} */
 
 .img-arrow {
     width: 100px;
@@ -109,9 +109,10 @@ section {
     gap: 4px;
 }
 
-.currency {
+.currency{
     color: #777777;
-    font-size: 14px;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .currency-value .currency-value-to-convert{
